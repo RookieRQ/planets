@@ -127,7 +127,8 @@ def main(num_steps, input_file, output_file, trajectories_file, num_cores):
         positions += velocities * dt
 
     write_data(positions, output_file)
-
+    # stage comments
+    
     if trajectories_file:
         np.savez_compressed(trajectories_file, trajectories)
 
