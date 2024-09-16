@@ -106,6 +106,8 @@ def main(num_steps, input_file, output_file, trajectories_file, num_cores):
     positions, velocities, masses = read_data(input_file)
 
     dt = 0.2  # time step
+    # It is a modification to the original code
+
 
     if trajectories_file:
         trajectories = np.zeros((num_steps, len(positions), 3))
