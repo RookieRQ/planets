@@ -108,6 +108,7 @@ def main(num_steps, input_file, output_file, trajectories_file, num_cores):
     dt = 0.1  # time step
     # this is a modification
     # this is a comment of modification
+    # continue modification
 
     if trajectories_file:
         trajectories = np.zeros((num_steps, len(positions), 3))
