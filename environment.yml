@@ -10,3 +10,4 @@ dependencies:
   - sphinx
   - sphinx-rtd-theme
   - sphinx-autoapi
+  - pytest
